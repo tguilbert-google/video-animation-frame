@@ -1,14 +1,14 @@
 # Video Animation Frame - Security and Privacy Questionnaire
 
 This document answers the [W3C Security and Privacy
-Questionnaire](https://www.w3.org/TR/security-privacy-questionnaire/)for the
+Questionnaire](https://www.w3.org/TR/security-privacy-questionnaire/) for the
 Video Animation Frame specification.
 
 Last Update: 2019-10-09
 
 **2.1. What information might this feature expose to Web sites or other parties, and for what purposes is that exposure necessary?**
 
-This feature exposes video frame metadata. This exposure is necessary to allow web applications to measure performance. 
+This feature exposes video frame metadata. This exposure is necessary to allow web applications to automatically measure performance. 
 
 **2.2. Is this specification exposing the minimum amount of information necessary to power the feature?**
 
@@ -65,7 +65,7 @@ The specification behaves in the same way.
 
 **2.15. Does this specification have a "Security Considerations" and "Privacy Considerations" section?**
 
-Not yet. The feature might allow profiling of machines, by exposing accurate video decode performance metrics.
+Not yet, as the specification hasn't been formally written. The feature might allow profiling of machines, by exposing accurate video decode performance metrics. There might be a need for an explanation of what kind of risk, if any, this brings about.
 
 **2.16. Does this specification allow downgrading default security characteristics?**
 
